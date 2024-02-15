@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Else funksiya</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <!-----NAVBAR BASLADI-->
+
+      <div class="navbar">
+        <div class="menu">
+          <nav>
+            <ul>
+              <li class="items"><a href="index.html">Else funksiya</a></li>
+              <li class="items"><a href="elave.html">Əlavə funsiya </a></li>
+              <li class="items"><a href="daxilol.html">Daxil ol</a></li>
+              <li class="items"><a href="document.html">Document obyekt</a></li>
+              <li class="items"><a href="calisma.html">Calışma</a></li>
+              <li class="items"><a href="lotoreya.html">Lotoreya</a></li>
+              <li class="items"><a href="riyaziyyat.html">Riyaziyyat</a></li>
+              <li class="items"><a href="tercume.html">Tərcümə</a></li>
+              <li class="items"><a href="muhasib.html">Mühasib</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <!-----NAVBAR BITDI-->
+    </header>
+    <main>
+      <section>
+        <div class="else">
+          <h1>If operatorunun yanında işlənən else hissəciyi</h1>
+          <br />
+          <p>
+            Şərtin ödəndiyi hallardan əlavə şərtin ödənmədiyi hallar da
+            mövcuddur. burada x dəyişəninin qiyməti 8 olarsa cavabın düz
+            olduğunu yazırıq. Ancaq x dəyişəni 8 olmazsa heç bir əməliyyat
+            yerinə yetirmirik. Bəs biz x dəyişəni 8 olmazsa cavabın səhv
+            olduğunu demək istəyiriksə, o zaman nə etməliyik? Artıq burada
+            <span>if</span> operatorunun yanında işlənən
+            <span>else</span> hissəciyindən istifadə etməliyik. Bu hissəcik
+            şərtin ödənmədiyi halda əməliyyatları yerinə yetirmək üçün nəzərdə
+            tutulub.
+            <br />
+            Istifadəçidən şifrəni daxil etməsini tələb edək. Əgər, şifrə “orxan”
+            sözü olarsa, o zaman, doğru daxil etdiyini deyək. Ancaq “orxan”
+            sözünü daxil etməzsə, yəni, şərt ödənməzsə, o zaman, yanlış daxil
+            etdiyini deyək.
+          </p>
+        </div>
+        <div class="ikisert">
+          <p>
+            Şərt operatorlarında öyrənməli olduğumuz vacib bir hissə də
+            <span>else if</span> hissəsidir. Bu hissə şərtdə müxtəlif halları
+            yoxlamaq üçün nəzərdə tutulmuşdur. Fərz edək ki, bir oyun otağımız
+            var. Bu oyun otağına yalnız yaşı 12-dən aşağı olan uşaqlar daxil ola
+            bilər, yaşı 12-dən böyük olanlar isə daxil ola bilməz. Ancaq, yaşı
+            12 olanlar yalnız xüsusi icazə ilə daxil ola bilər. Bu zaman bizim
+            üç halımız var. Birinci hal yaşın 12-dən kiçik olmasıdır. Bu halda
+            şəxsə otağa daxil olmağa icazə verəcəyik. İkinci hal isə yaşının
+            12-ə bərabər olmasıdır. Bu halda isə şəxsə xüsusi icazənin lazım
+            olduğunu bildirəcəyik. Digər hallarda isə, yəni, şəxsin yaşı 12-dən
+            böyük olduqda otağa daxil ola bilməyəciyini deyəcəyik. Burada iki
+            şərt yoxladığımız üçün else if hissəsinə mütləq ehtiyacımız var.
+            <br />
+            Belə bir şərtə baxaq:
+          </p>
+          <div class="numune">
+            <p>
+              var x;
+              <br />
+              x = prompt("Yasinizi daxil edin:");
+              <br />
+              if (x > 18) document.write("welcome!");
+              <br />
+              else if (x == 18) document.write("icaze vereqesi");
+              <br />
+              else document.write("ancaq 18 ve 18den boyuk olanlar");
+              <br />
+              <span
+                >Şərt daxilindəki əməliyyatları fiqurlu mötərizə daxilində də
+                yazmağımız mümkündür.
+              </span>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./app/script.js"></script>
+  </body>
+</html>
